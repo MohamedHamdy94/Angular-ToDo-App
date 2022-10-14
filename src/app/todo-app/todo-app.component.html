@@ -1,0 +1,8 @@
+<div class="container-fluid">
+    <div class="row bg-primary pt-5 ps-5">
+        <h1  class="text-white col-12">Todo App!</h1>
+        <h3 class="text-white col-12">Add new Todo</h3>
+        <input #txt class="col-10 p-3" placeholder="Enter your todo" type="text">
+        <button type="button" (click)="sendData(txt.value); txt.value=''" type="button" class=" btn btn-secondary  btn-lg btn-outline-dark my-4 col-3" >Add Todo</button>
+    </div>
+</div>
